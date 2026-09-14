@@ -1,0 +1,1 @@
+select * from delta.`/Volumes/databricksansh/bronze/jobvolume/raw/stores/`
