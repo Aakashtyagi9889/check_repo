@@ -8,7 +8,7 @@ expectations = {
 @dlt.table(
     name = "expect_table"
 )
-# @dlt.expect_all(expectations)
+# @dlt.expect_all(expectations)    like WARN 
 # @dlt.expect_all_or_fail(expectations)
 @dlt.expect_all_or_drop(expectations)
 # @dlt.expect_all_or_warn(expectations)
